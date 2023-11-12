@@ -95,12 +95,14 @@ nav button{
 
 .features{
   /* margin: 50px 12%; */
-  /* padding: 50px 12%; */
+  /* border-padding: 50px 12%; */
   font-size: 22px;
   /* border-top: 6px solid #333; */
+  /* outline: 6px solid #333; */
 }
 .row{
   display: flex;
+  padding: 50px 12%;
   width: 100%;
   align-items: center;
   flex-wrap: wrap;
@@ -112,6 +114,7 @@ nav button{
   margin-bottom: 20px;
 }
 .img-col{
+  display: block;
   flex-basis: 50%;
   margin-bottom: 20px;
 }
