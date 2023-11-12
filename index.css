@@ -94,22 +94,22 @@ nav button{
 /* Features */
 
 .features{
-  padding: 50px 12%;
+  /* margin: 50px 12%; */
+  /* padding: 50px 12%; */
   font-size: 22px;
-  border-top: 6px solid #333;
+  /* border-top: 6px solid #333; */
 }
 .row{
   display: flex;
   width: 100%;
   align-items: center;
   flex-wrap: wrap;
-  padding: 50px 0;
-  /* border-top: 6px solid #333; */
+  padding: 50px 100px;
+  border-top: 6px solid #333;
 }
 .text-col{
   flex-basis: 50%;
   margin-bottom: 20px;
-  
 }
 .img-col{
   flex-basis: 50%;
@@ -124,6 +124,56 @@ nav button{
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 20px;
+}
+.vido-img{
+  display: inline-grid;
+  place-items: center;
+}
+.vdo-1{
+  position: relative;
+  /* overflow: hidden;
+  padding-bottom: 56.25% */
+  height: 239px;
+  margin-bottom: 17px;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  z-index: -1;
+}
+.img-1{
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+.vdo-new{
+  height: 200px;
+  margin-bottom: 170px;
+}
+.button-download{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 370px;
+  justify-content: space-evenly;
+  overflow: hidden;
+  padding: 20px;
+  background-color: black !important;
+  border: 2px solid #777;
+  border-radius: 15px;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  margin-top: 270px;
+}
+.strainger-things-downlagimg{ 
+  height: 50px; 
+  padding-right: 50px; 
+}
+.download-gif{
+  height: 50px;
+  padding-left: 60px;
+}
+.stranger-things-img{
+  grid-column: 2/2;
+  grid-row: 1/2;
+  z-index: -1;
 }
 
 /* ----------------FAQ------------------------- */
